@@ -1,0 +1,24 @@
+{
+  "name": "hapi-vkminiapps-auth",
+  "version": "1.0.0",
+  "description": "Authorization plugin for VK Mini Apps",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "auth",
+    "vk",
+    "vkminiapps",
+    "vkapps"
+  ],
+  "repository": "git://github.com/mdenushev/hapi-vkminiapps-auth",
+  "author": "Max Denushev <max@denushev.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^8.0.1",
+    "@hapi/hoek": "^8.5.0",
+    "@hapi/joi": "^16.1.8"
+  }
+}
