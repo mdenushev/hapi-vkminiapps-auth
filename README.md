@@ -7,7 +7,7 @@ Simple implementation for auth flow in VK Mini Apps
 npm install --save hapi-vkminiapps-auth
 ```
 
-###Usage:
+### Usage:
 ```ecmascript 6
 const Hapi = require('@hapi/hapi');
 
