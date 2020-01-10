@@ -16,7 +16,13 @@ const start = async () => {
 
     await server.register(require('hapi-vkminiapps-auth'));
 
-    server.auth.strategy('vk', 'vk-mini-app', { clientSecret: '...' });
+    server.auth.strategy('vk', 'vk-mini-app', { clientSecret: '...', validate: (credentials) => { // Credentials is same as below
+      if (credentials.vk_user_id === 98712) {
+        return {isValid: true, credentials}
+      } else {
+        return {isValid: false, error: 'Forbidden'}
+      }    
+    }});
 
     server.route({
         method: 'GET',
