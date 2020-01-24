@@ -8,7 +8,7 @@ npm install --save hapi-vkminiapps-auth
 ```
 
 ### Usage:
-```ecmascript 6
+```javascript
 const Hapi = require('@hapi/hapi');
 
 const start = async () => {
