@@ -1,6 +1,6 @@
 {
   "name": "hapi-vkminiapps-auth",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Authorization plugin for VK Mini Apps",
   "main": "lib/index.js",
   "scripts": {
