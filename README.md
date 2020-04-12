@@ -57,3 +57,6 @@ Example `request.auth.credentials`:
     "vk_user_id": 1234
 }
 ```
+
+### Hint:
+If you use nginx add `underscores_in_headers on;` to your server section.
